@@ -1,20 +1,5 @@
 #ifndef MAP_H
 #define MAP_H
-/* Map.h
- *
- * Abstract data type representing a map of key-value pairs with
- * unique keys. A subset of the std::map interface
- * http://www.cplusplus.com/reference/map/map/
- * Project UID db1f506d06d84ab787baf250c265e24e
- *
- * By Andrew DeOrio <awdeorio@umich.edu>
- *    Amir Kamil    <akamil@umich.edu>
- *    James Juett   <jjuett@umich.edu>
- * Updated
- *   2016-11-23
- *
- * DO NOT modify the public interface. Modify anything else you need to.
- */
 
 #include "BinarySearchTree.h"
 #include <cassert>
