@@ -1,15 +1,10 @@
-/*
- * TreePrint.h
- * 
- */
-
 #include <iostream>
 #include <iomanip>
 #include <string>
 #include <sstream>
-#include <cmath> // pow
+#include <cmath>
 #include <set>
-#include <stack> // used in get_max_elt_width()
+#include <stack>
 
 static const char* const c_leaf_branch_special = "/\\";
 
@@ -187,8 +182,6 @@ private:
       build(root_node->right, cur_x + x_offset, cur_y + 2);
   } // build
 };
-
-//--------------------------------------------------------------------
 
 /*
  * Returns an (actually) human-readable string representation of the
