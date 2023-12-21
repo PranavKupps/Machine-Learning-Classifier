@@ -1,20 +1,5 @@
 #ifndef BINARY_SEARCH_TREE_H
 #define BINARY_SEARCH_TREE_H
-/* BinarySearchTree.h
- *
- * Abstract data type representing a binary search tree
- * Project UID db1f506d06d84ab787baf250c265e24e
- *
- * By Andrew DeOrio <awdeorio@umich.edu>
- *    Amir Kamil    <akamil@umich.edu>
- *    James Juett   <jjuett@umich.edu>
- * Updated
- *   2017-05-01
- *
- * DO NOT CHANGE any of the implementations in this file that are
- * provided with the starter code. Only fill in implementations
- * for the private static member functions as directed.
- */
 
 #include <cassert>  //assert
 #include <iostream> //ostream
